@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.search-form{
+background-color: rgba(41, 6, 130, 0.86);
+background-image: url(../images/formfone.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+position: fixed;
+width: 100%;
+border-bottom-left-radius: 10;
+border-bottom-right-radius: 10;
+padding: 24 0;
+display: flex;
+justify-content: center;
+
+}
+
+.search-form__input{
+    height: 28;
+    width: 228;
+
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    padding-left: 10;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.search-form__input:focus{
+outline: none;
+}
+
+.search-form__btn{
+    border-radius: 10;
+border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+height: 30;
+right: 600;
+box-shadow: none;
+border: none;
+background-color: rgba(72, 0, 255, 0.86);
+}
+
+.search-form__btn:hover{
+    cursor: pointer;
+}
+
+.gallery{
+padding-top: 88;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32;
+}
+
+.photo-card{
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    border-radius: 8px;
+    
+  background-color: rgba(72, 0, 255, 0.86);
+}
+
+.info{
+    display: flex;
+    gap: 16;
+    justify-content: center;
+    color: #ffff;
+}
+
+.more-BTN{
+padding: 24px 0;
+display: flex;
+justify-content: center;
+}
+
+.load-more{
+    width: 240;
+    height: 40;
+    background-color: rgba(72, 0, 255, 0.86);
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: none;
+    border: none;
+    
+}
+
+.load-more:hover{
+    cursor: pointer;
+}
+
+.is-hidden{
+    display: none;
+}
